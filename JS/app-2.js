@@ -1,5 +1,7 @@
 console.log('JS Snacks 2 - Patente')
 
+const validationElement = document.getElementById('result')
+
 
 /*crea un array che contiene un elenco di persone con 
 (nome, cognome, età), successivamente crea un altro array
@@ -66,6 +68,7 @@ for (let i = 0; i < people.length; i++) {
         validation.push(currentPerson)
 
 
+
     }
 
     //condizione di minore età
@@ -77,3 +80,4 @@ for (let i = 0; i < people.length; i++) {
 }
 
 console.log(validation)
+
