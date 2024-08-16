@@ -13,7 +13,7 @@ const animals = [
         nome: 'leona',
         famiglia: 'felidi',
         classe: 'mammiferi'
-    }
+    },
 
     //inserisco secondo oggetto
 
@@ -21,7 +21,7 @@ const animals = [
         nome: 'cane',
         famiglia: 'canidi',
         classe 'mammiferi',
-    }
+    },
 
 
     //inserisco terzo oggetto
@@ -29,7 +29,7 @@ const animals = [
         nome: 'gallina',
         famiglia: 'fasianidi',
         classe: 'uccelli',
-    }
+    },
 
     //inserisco quarto oggetto
     {
@@ -38,3 +38,10 @@ const animals = [
         classe: 'rettili',
     }
 ]
+
+//verifico funzionamento
+console.log(animals)
+
+//creo un nuovo array dei mammiferi
+
+const mammiferi = []
